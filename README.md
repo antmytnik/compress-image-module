@@ -4,10 +4,10 @@
 ### Как использовать conpressor.js
 1. Импортируем js модуль <script src="compressor.js"></script>
 2. Вызываем compressAll(input, width, height, quality, param)
-> object: input - ссылка на input[type=file]
-> int: width - ширина изображения
-> int: height - высота изображения
-> int: quality - качество изображения.(0-100)
+> object: input - ссылка на input[type=file]  
+> int: width - ширина изображения  
+> int: height - высота изображения  
+> int: quality - качество изображения.(0-100)  
 > string: param - параметры маштабирования. На данный момент только: "stretch" - растягивает изображение на width или height, "contain" - уменьшает высоту и ширину без потери соотношения сторон
 3. После вызова compressAll(), возвращает массив со сжатыми изображениями в base64. Вида:
 >Array(4)  
