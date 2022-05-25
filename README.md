@@ -15,3 +15,4 @@
 >   1: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZA...",  
 >   2: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZA...",  
 >   3: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZA..."  
+##### Если что-то пошло не так возвращает false
