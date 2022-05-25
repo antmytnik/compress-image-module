@@ -10,8 +10,8 @@
 > int: quality - качество изображения.(0-100)
 > string: param - параметры маштабирования. На данный момент только: "stretch" - растягивает изображение на width или height, "contain" - уменьшает высоту и ширину без потери соотношения сторон
 3. После вызова compressAll(), возвращает массив со сжатыми изображениями в base64. Вида:
->Array(4)
->   0: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZA...",
->   1: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZA...",
->   2: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZA...",
->   3: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZA..."
+>Array(4)  
+>   0: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZA...",  
+>   1: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZA...",  
+>   2: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZA...",  
+>   3: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZA..."  
