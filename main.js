@@ -1,3 +1,3 @@
 function pasteData() {
-    alert(compressAll(document.getElementById('main_image')));
+    console.log(compressAll(document.getElementById('main_image'), 600, 600, 100, 'contain'));
 }
