@@ -1,22 +1,26 @@
-body {
+.image_container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    img {
+        margin: 10px;
+    }
+}
+
+section {
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
     transition: 0.3s;
-}
-
-.data {
-    background: #424242;
-    height: 100px;
-    width: 200px;
-    margin-bottom: 3px;
-    border-radius: 3px;
+    width: 80%;
+    padding: 100px;
 }
 
 .fields {
-    width: 200px;
+    width: 500px;
     height: 200px;
     border-radius: 3px;
     background: #424242;
@@ -25,7 +29,7 @@ body {
     justify-content: center;
     align-items: center;
     input {
-        width: 150px;
+        width: 200px;
         height: 24px;
         padding: 3px;
         margin: 0 auto;

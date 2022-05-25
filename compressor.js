@@ -52,7 +52,7 @@ function compressAll(item_id = null, width = null, height = null, compress_lvl =
                         ctx.drawImage(img, 0, 0, can.width, can.height);
                         file_data = can.toDataURL('image/png', compress_lvl);
                         img.src = file_data;
-                        document.body.append(img);
+                        document.getElementsByClassName('image_container')[0].append(img);
                         resolve(file_data);
                     };
             };

@@ -10,13 +10,17 @@
 </head>
 
 <body>
-    <div class="fields">
-        <input type="text" id="name" placeholder="Name"><br>
-        <input type="file" id="main_image" multiple><br>
-        <input type="submit" onclick="pasteData()">
-    </div>
-    <script src="main.js"></script>
-    <script src="compressor.js"></script>
+    <section>
+        <div class="fields">
+            <input type="file" id="main_image" multiple accept="image/*"><br>
+            <input type="submit" onclick="pasteData()">
+        </div>
+        </div>
+        <div class="image_container">
+
+        </div>
+        <script src="main.js"></script>
+        <script src="compressor.js"></script>
 </body>
 
 </html>
