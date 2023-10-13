@@ -1,7 +1,7 @@
 # compress-image-module инструкция
 Данный модуль сжимает изображения, загруженные в input[type=file], и возвращает массив сжатых изображений. Степень сжатия определяется настройками.
 >Верстка, стили и файл main.js нужны чтобы продемонстрировать как работает compressor.js
-### Как использовать conpressor.js
+### Как использовать compressor.js
 1. Импортируем js модуль <script src="compressor.js"></script>
 2. Вызываем compressAll(input, width, height, quality, param)
 > object: input - ссылка на input[type=file]  
